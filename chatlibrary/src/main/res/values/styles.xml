@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+    </style>
+    <style name="ActionBarIconSize">
+        <item name="android:layout_width">@dimen/image_view_size</item>
+        <item name="android:layout_height">@dimen/image_view_size</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="layoutMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="LayoutWrapAndMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="layoutWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ActionBarIconWithRightAligned" parent="ActionBarIconSize">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_divider</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.full.chat.chatlibrary">
+
+    <application>
+        <activity android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ConversationActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+</manifest>
